@@ -1,0 +1,86 @@
+import { Notes, Head, Appear, Image } from "mdx-deck";
+import lmcLogo from './images/lmc-logo.png'
+import { default as customTheme } from "./src/theme";
+export const theme = customTheme;
+
+<Head>
+  <title>Node.js in LMC– Tomas Litera</title>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@tomaslitera" />
+  <meta
+    property="og:image"
+    content="http://renovate-your-dependencies.netlify.com/presentation.png"
+  />
+  <meta
+    property="og:title"
+    content="Node.js in LMC– Tomas Litera"
+  />
+</Head>
+
+<img src={lmcLogo} width="120" />
+
+# Node.js v LMC
+
+_by Tomáš Litera & Jiří Vomáčka_
+
+<Notes>Microphone, screen recording, start timer</Notes>
+
+---
+
+## Proč aneb co nám přináší
+
+- rychlé prototypování
+- asynchronní zpracování
+- rychlé zpracování konkurenční requestů
+- lepší podpora websockets
+- znovupoužitelný kód (BE + FE)
+- škálovatelná technologie obzvláště pro mikroservisy
+- robustní technologický stack (nástroje, frameworky, dokumentace)
+
+---
+
+## Kdy použít / výhody
+
+- rychlé prototypování
+- asynchronní zpracování
+- websockety
+- stálá/častá synchronizace dat
+- fullstack development (mám jen javascripťáka)
+- microservisy, API
+- v kombinaci se serverless a jinými službami (Functions, Lambda, ...)
+
+---
+
+## Kdy nepoužít / potenciální pasti
+
+- výpočetně náročné operace (řešitelné pomocí Worker Threads)
+- když programátoři nechtějí zkusit jiné paradigma nebo jazyk
+- pokud tým nemá zkušenosti s Javascriptem
+- pokud není čas na učení nových věcí
+- riziko horší zastupitelnosti a obtížnějšího / nákladnějšího hledání vývojářů
+
+---
+
+## Zkušenosti
+
+- Seduo (B2B seduo company, NextJS/ export do statiky)
+- Compres (snippet, firemni profily admin, lokální vývoj)
+- KukAd (experimentální pilot React/Node/NextJS)
+- Arnold (Koa Fw + postgres, Creat react app), produkční aplikace
+
+---
+
+## Závěr
+
+- Node.js v LMC používáme tam, kde je to vhodné a efektivní
+- Budujeme použitelný ekosystém v JavaScriptu: ReactJS/NodeJS/NextJS
+
+- Vlastník technologie: Tomáš Litera
+- Sdílení know-how: v rámci Front-end exp. týmu (dev sharingů)
+- https://confluence.int.lmc.cz/display/TECH/Node.js
+
+<Notes>Používáme již ReactJS/Native, schválená výjimka pro Arnold</Notes>
+
+---
+
+👋
